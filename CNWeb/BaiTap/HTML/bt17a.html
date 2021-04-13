@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="padding: 20px;line-height: 1.7; background-color: rgba(207, 175, 32, 0.651)" class="container">
+        <h1 style="text-align: center;">Survey Form</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur eveniet maiores minus eligendi. Commodi esse non eos minima. Sunt voluptas error commodi maiores tenetur amet ipsa obcaecati alias eligendi ab.</p>
+        <form action="#">
+            <ol>
+                <li>
+                    What is your name? <br>
+                    <input type="text" name="YName" id="YName">
+                </li>
+                <li>
+                    What is your date of birth? <br>
+                    Month <select  name="Month" id="Month"><option value="January">January</option></select>
+                    Date <select  name="Date" id="Date"><option value="1">1</option></select>
+                    Year <input size="5" type="text" name="txbyear" id="txbyear">
+                </li>
+                <li>
+                    What is your mailing address (if you would like  to have a hard copy of our catalog sent to you)? <br>
+                    <textarea name="mailling" id="mailling" cols="30" rows="7">
+                        Number/P.O Box/Route
+                        Street/Avenue/Road
+                        City:
+                        State/Zip:
+                    </textarea>
+                </li>
+                <li>
+                    What is your email address? <br>
+                    <input type="email" name="email" id="email">
+                </li>
+                <li>
+                    Have you viewed our online product catalog? <br>
+                    <input type="radio" name="Y" id="Y" value="Y"> Yes
+                    <input type="radio" name="Y" id="Y" value="N"> No
+                </li>
+                <li>
+                    If so, what product(s), besides the one you are ordering, might you be interested in <br>
+                    <input type="checkbox" name="If" id="If"> VCR <br>
+                    <input type="checkbox" name="If" id="If"> Big Screen TV <br>
+                    <input type="checkbox" name="If" id="If"> Audio Equipment <br>
+                    <input type="checkbox" name="If" id="If"> Video Equipment <br>
+                    <input type="checkbox" name="If" id="If"> Camera Equipment <br>
+                    <input type="checkbox" name="If" id="If"> Other
+                    <input type="text" name="Orther" id="Orther" placeholder="Please List">
+                </li>
+                <li>
+                    Do you have any questions, cemment or suggestions before processding to order Form? <br>
+                    <textarea name="have" id="have" cols="30" rows="10" placeholder="Your Input:"></textarea>
+                </li>
+            </ol>
+            <div style="text-align: center;">
+                <button>Send Form</button>
+                <button>Clear Form</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

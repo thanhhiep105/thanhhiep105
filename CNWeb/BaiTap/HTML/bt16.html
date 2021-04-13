@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="width: 80%; margin: 0 auto;">
+    <div style="margin: 20px; padding: 20px; line-height: 1.5; border: 2px solid #333;" class="container">
+        <h1>Travel reservation form</h1>
+        <h3>* denotes mandotory</h3>
+        <form action="#">
+            Full name*: <br>
+            <input type="text" name="FName" id="FName"><br>
+            Email address*: <br>
+            <input type="email" name="Email" id="Email"><br>
+            Select Tour Package*: <br>
+            <select name="Tour" id="Tour">
+                <option value="Goa">Goa</option>
+            </select><br>
+            Arrival date*: <br>
+            <input type="datetime" name="arr" id="arr" placeholder="m/d/y"><br>
+            Number of  person*: <br>
+            <input type="number" name="person-number" id="person-number" placeholder="UNKNOWN_TYPE"><br>
+            What would you want to avail?*: <br>
+            Boarding <input type="checkbox" name="Boarding" id="avail"><br>
+            Fooding <input type="checkbox" name="Fooding" id="avail"><br>
+            Sight seeing <input type="checkbox" name="Sight" id="avail"><br>
+            Discput Coupon code: <br>
+            <input type="number" name="code" id="code" placeholder="UNKNOWN_TYPE"> <br>
+            Terms and conditions* <br>
+            <input type="radio" name="Terms" id="Terms" value="agree"> I agree 
+            <input type="radio" name="Terms" id="Terms" value="disagree"> I disagree <br>
+            <button>Complete reservation</button>
+        </form>
+    </div>
+</body>
+</html>
